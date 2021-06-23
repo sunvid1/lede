@@ -13,6 +13,10 @@ on:
   release:
     types: [published]
 
+env:
+  FEEDS_CONF: feeds.conf.default
+  CONFIG_FILE: .config
+
 jobs:
 
   build_openwrt:
